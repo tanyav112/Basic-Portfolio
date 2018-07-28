@@ -25,7 +25,7 @@ top: 50%;
 
 #bio {
   padding-right: 20px;
-  padding-left: 20 px;
+  padding-left: 20px;
   padding-right: 20px;
   padding-bottom:  20px;
   margin-left: 10px;
@@ -111,4 +111,35 @@ footer {
     text-align: center;
      border-top: 5px solid orchid;
     
+}
+
+.fcontainer {
+background-color: orchid;
+width:  960px;
+position: absolute;
+margin: -200px 0 0 -500px;
+left: 50%;
+top: 50%;
+
+
+}
+
+.flex-container {
+ display: grid;
+  grid-gap: 10px;
+  grid-row-gap: 10px;
+  height: 100px;
+  grid-template-columns: 300px 300px;
+  background-color: orchid;
+}
+
+.flex-container > div {
+  background-color: #f1f1f1;
+  width: 100px;
+  margin: 10px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 20px;
+  justify-content: center;
+
 }
