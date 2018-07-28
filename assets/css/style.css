@@ -4,47 +4,70 @@ body {
 
 }
 
+
 h1 {
   border-bottom: 1px solid black;
- 
+  margin-left: 10px;
+  margin-right: 10px;
+  font-size: 22px;
   
- 
 }
+
 .container {
 background-color: orchid;
-padding: 20px;
-margin-left:100px;
-margin-right: 100px;
-margin-top: 50px;
-margin-bottom: 50px;
+width:  960px;
+position: absolute;
+margin: -200px 0 0 -500px;
+left: 50%;
+top: 50%;
+
 }
 
 #bio {
   padding-right: 20px;
-  padding-left: 0 px;
+  padding-left: 20 px;
+  padding-right: 20px;
   padding-bottom:  20px;
+  margin-left: 10px;
 
 }
 nav {
-      display: flex;
-      height: 50px;
-      align-items: center;
-      background: aquamarine;
-      justify-content: space-between
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  display: flex;
+  height: 50px;
+  align-items: center;
+  background: whitesmoke;
+  justify-content: space-between;
+  margin-right: 250px;
+  border-bottom: 1px solid gray;
+              
     }
+
+nav > .name {
+  background-color: orchid;
+  padding: 15px;
+  border: none;
+  font-size: 20px;
+  margin-left: 500px;
+  
+}
 
   .name {
     color: black;
-    margin-left: 100px;
+    margin-left: 250px;
     border: 1px solid black;
+  
         
   }
 
     .navPills {
       display: flex;
       align-items: center;
-      margin-right: 100px;
-
+      margin-right: 550px;
+      
     }
 
     .navPills div a {
@@ -55,10 +78,37 @@ nav {
     }
 .form {
 background-color: orchid;
+width: 960px;
 padding: 20px;
-margin-left:100px;
-margin-right: 100px;
-margin-top: 50px;
-margin-bottom: 50px;
+position: absolute;
+margin: -200px 0 0 -500px;
+left: 50%;
+top: 50%;
+
 }
 
+input {
+width: 100%;
+}
+
+textarea{
+  width: 100%;
+  height: 100px;
+}
+
+#submit {
+  width: 20%;
+  margin-top: 10px;
+}
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: gray;
+    color: black;
+    text-align: center;
+     border-top: 5px solid orchid;
+    
+}
